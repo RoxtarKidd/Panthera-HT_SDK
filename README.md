@@ -25,14 +25,14 @@ Playback visualizes recorded motion. Gripper motion and base placement are appro
 
 Paths below are relative to `panthera_python/scripts/`.
 
-| Task | Script or folder |
+| Task | Script or folder | Notes |
 |---|---|---|
-| MuJoCo playback | [panthera_playback/playback.py](panthera_python/scripts/panthera_playback/playback.py) |
-| Recorded data | [recordings/](panthera_python/scripts/recordings/) | |(Some recordings aren't as good as others)|
-| Record both arms independently with gravity compensation | [record_two_arms.py](panthera_python/scripts/record_two_arms.py) | ||
-| Use one physical arm to control the other | [5_teleop_control.py](panthera_python/scripts/5_teleop_control.py) | ||
-| Quest control of one arm | [7_vr_cartesian_control.py](panthera_python/scripts/7_vr_cartesian_control.py) | ||
-| Quest control of both arms | [7_vr_dual_cartesian_control.py](panthera_python/scripts/7_vr_dual_cartesian_control.py) | ||
+| MuJoCo playback | [panthera_playback/playback.py](panthera_python/scripts/panthera_playback/playback.py) | |
+| Recorded data | [recordings/](panthera_python/scripts/recordings/) | Recording quality varies between sessions. |
+| Record both arms independently with gravity compensation | [record_two_arms.py](panthera_python/scripts/record_two_arms.py) | |
+| Use one physical arm to control the other | [5_teleop_control.py](panthera_python/scripts/5_teleop_control.py) | |
+| Quest control of one arm | [7_vr_cartesian_control.py](panthera_python/scripts/7_vr_cartesian_control.py) | |
+| Quest control of both arms | [7_vr_dual_cartesian_control.py](panthera_python/scripts/7_vr_dual_cartesian_control.py) | |
 
 Each recording session contains `joint_data.csv` and `metadata.json`.
 The current two-arm recorder does not record camera video.
